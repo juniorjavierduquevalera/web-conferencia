@@ -1,0 +1,323 @@
+/* //modificaciones generales// */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;    
+}
+
+/* //barra de navegación// */
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-container {
+    margin: 0px 110px 0px 40px;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+header ul {
+    list-style: none;
+    color: rgb(255, 165, 0);;
+}
+
+.btn-warning {
+    --bs-btn-color: #000;
+    --bs-btn-bg:  rgb(255, 165, 0);
+    --bs-btn-border-color:  rgb(255, 165, 0);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: rgb(218, 143, 3);
+    --bs-btn-hover-border-color: rgb(207, 135, 0);
+    --bs-btn-focus-shadow-rgb: 217,164,6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: rgb(218, 143, 3);
+    --bs-btn-active-border-color: rgb(207, 135, 0);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg:  rgb(255, 165, 0);
+    --bs-btn-disabled-border-color:  rgb(255, 165, 0);
+}
+
+.vector-1 {
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    right: 0px;
+    top: 0px;
+    background: rgb(214, 244, 245);
+    border-radius: 800px 0px 600px 700px;  
+        
+}
+
+/* //diseño de hojas tiempo y fechas// */
+
+.container-a1 h1 {
+    color: rgb(255, 165, 0);
+}
+
+.container-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;  
+    margin-right: 15px;  
+    width: 130px;
+    height: 128px;
+    border: 2px solid  rgb(255, 165, 0);
+    background-size: contain;
+    border-radius: 800px 800px 800px 0px;  
+}
+.container-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-right: 15px; 
+    width: 130px;
+    height: 128px;
+    border: 2px solid  rgb(255, 165, 0);
+    border-radius: 800px;
+}
+
+.container-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin-right: 15px; 
+    width: 130px;
+    height: 128px;
+    border: 2px solid  rgb(255, 165, 0);    
+    border-radius: 0px 800px 800px 800px;
+}
+
+/* //diseño de hojas tiempo y fechas// */
+
+#texto4 {
+    display: none; 
+    text-align: justify;
+ }
+
+ .tex-principal p {
+    text-align: justify; 
+ }
+
+ /* //contenedor de imagen principal puntos y imagenesde fondo// */
+
+ .container-imagen-principal {
+    width: 40%;
+    height: auto;
+    position: relative;
+
+ }
+
+ .container-imagen-principal img {
+    width: 90px;
+    height: auto;
+ } 
+
+.vector-2 {
+        position: absolute;
+        top: 28%;
+        right: 0%;
+        width: 400px;
+        height: 400px;
+        background: url(./assets/empresario1.png), #47CCD4;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 2400px 2400px 0px 2400px;
+}
+
+.vector-3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0%;
+    bottom: 0%;
+    background: url(./assets/perfil.png), rgb(214, 244, 245);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 800px 800px 800px 0px;
+}
+.vector-4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 0px;
+    bottom: 75%;
+    background: url(./assets/empresaria.png), rgb(14, 59, 62);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 800px 0px 800px 800px;
+}
+
+
+.estadisticas {
+    margin-top: 80px;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    background: rgb(231, 231, 231);
+    box-shadow: 0px 16px 80px rgba(51, 51, 51, 0.267);
+    border-radius: 24px;
+}
+
+@media (max-width: 1866px) {
+.estadisticas {
+        margin-top: 110px;     
+}
+
+}
+@media (max-width:1190px) {
+.nav-container {
+        margin: 0px 40px 0px 95px;}
+}
+
+@media (max-width: 992px) {
+.estadisticas {
+        margin-top: 70px;     
+}
+
+.container-imagen-principal {
+        width: 100%;
+        height: auto;
+        position: relative;    
+}
+    
+.vector-2 { 
+        top: 20%;
+        right: 0%;
+        margin: 0px;
+        padding: auto;  
+        width: 330px;
+        height: 330px; 
+        position: relative; 
+        margin-bottom: 70px;
+}
+
+.vector-3 {
+        width: 120px;
+        height: 120px;       
+}
+
+.vector-4 {
+        width: 120px;
+        height: 120px;       
+}
+
+
+.nav-container {
+        margin: 0px 40px 0px 20px;
+}
+}
+
+ @media (max-width: 768px) {
+.estadisticas {
+        margin-top: 60px;     
+}
+
+.container-a {       
+        width: 100px;
+        height: 108px;          
+}
+
+.container-b {
+        width: 100px;
+        height: 108px;        
+}
+    
+.container-c {
+        width: 100px;
+        height: 108px;        
+}
+  
+.nav-container {
+        margin: 0px 60x 0px 40px;
+}    
+     
+}    
+@media (max-width: 576px) {
+
+.container-a {       
+        width: 90px;
+        height: 88px;          
+}
+
+.container-b {
+        width: 90px;
+        height: 88px;        
+}
+    
+.container-c {
+        width: 90px;
+        height: 88px;        
+}
+
+.vector-2 { 
+        margin: 0px;
+        padding: auto;  
+        width: 300px;
+        height: 300px; 
+        position: relative; 
+        margin-bottom: 70px;
+}
+
+.vector-3 {
+        width: 100px;
+        height: 100px;       
+}
+
+.vector-4 {
+        width: 100px;
+        height: 100px;       
+}
+  
+.nav-container {
+        margin: 0px 8px 0px 18px;
+} 
+
+}
+    
+@media (max-width: 420px) {
+    .vector-2 { 
+        top: 20%;
+        left: 0%;
+        margin: 0px;
+        padding: auto;  
+        width: 240px;
+        height: 240px; 
+        position: relative; 
+        margin-bottom: 70px;
+}
+
+.vector-3 {
+        width: 80px;
+        height: 80px;       
+}
+
+.vector-4 {
+        width: 80px;
+        height: 80px;       
+}
+    
+}
+
+
+    
+    
+    
